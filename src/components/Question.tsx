@@ -72,7 +72,7 @@ export const Question = ({
           {currentQuestion !== 0 && (
             <Button
               variant="pink"
-              className="px-12"
+              className="w-1/3 lg:w-1/4"
               onClick={() => onClick(Navigation.previous)}
             >
               Previous
@@ -81,7 +81,7 @@ export const Question = ({
           {currentQuestion < questions.length - 1 && (
             <Button
               variant="lightPurple"
-              className="px-12"
+              className="w-1/3 lg:w-1/4"
               onClick={() => onClick(Navigation.next)}
             >
               Next
@@ -90,7 +90,7 @@ export const Question = ({
           {currentQuestion == questions.length - 1 && (
             <Button
               variant="purple"
-              className="px-12"
+              className="w-1/3 lg:w-1/4"
               onClick={() => onClick(Navigation.nextSection)}
             >
               Go to Next Section
