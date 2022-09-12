@@ -31,7 +31,7 @@ export const SectionTitle = ({
         <Title>{sectionInfo.title}</Title>
         <Description>{sectionInfo.info}</Description>
         <Button
-          variant="lightPurple"
+          variant="purple"
           className="w-1/2 mx-auto"
           onClick={() => onStartClick(true)}
         >
