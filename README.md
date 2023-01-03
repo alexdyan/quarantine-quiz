@@ -1,6 +1,8 @@
-<a href="https://quarantine-quiz.onrender.com">
-  <h1 align="center">Click here to check out the Quarantine Quiz site!</h1>
-</a>
+
+  <h1 align="center">
+  <a href="https://quarantine-quiz.onrender.com">Click here to check out the Quarantine Quiz site!</a>
+  </h1>
+
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
